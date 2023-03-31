@@ -1,0 +1,25 @@
+.navbar {
+  position: fixed; /* Fixes navbar at certain spot on screen so that it will not move */
+  top: 0; /* Sets the top of the navbar div to the very top of the screen */
+  width: 100%; /* Take up entire width of the screen */
+  height: 65px;
+  background-color: black;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  color: white; /* Text color */
+  justify-content: space-evenly; /* Aligns all items inside the navbar horizontally */
+  align-items: center; /* Aligns all items vertically */
+}
+
+.brand {
+  font-size: 24px;
+}
+
+.navBtn {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
